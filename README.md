@@ -24,3 +24,9 @@ A simple twitter live streamer application that uses [Nuxt.js](https://nuxtjs.or
 - Start postgres and redis at default ports
 - Create postgres user (You can use django manage command "pipenv run python manage.py createsuperuser")
 - Start the nuxt server using "yarn start"
+
+
+# Snapshots
+![](/screenshots/1.png?raw=true)
+![](/screenshots/2.png?raw=true)
+![](/screenshots/3.png?raw=true)
