@@ -140,7 +140,6 @@ class StreamListener(tweepy.StreamListener):
             "polarity": sent.polarity,
             "subjectivity": sent.subjectivity,
             "retweet_count": status.retweet_count,
-            "created_at": status.created_at,
             "created_at": tweet_date,
             "user_location": status.user.location,
             "coordnates": coords,
