@@ -1,7 +1,7 @@
 <template>
   <v-container grid-list-sm>
     <v-layout row>
-      <v-flex md8 lg9>
+      <v-flex md8 lg9 sm8>
         <v-toolbar dense class="mb-2">
           <v-icon color="blue">mdi mdi-twitter</v-icon>
           <v-spacer></v-spacer>
@@ -38,7 +38,7 @@
                     <v-layout row>
                       <v-flex md1>
                         <v-avatar size="40">
-                          <img :src="props.item.user_image_url" alt="alt">
+                          <img :src="props.item.user_image_url" alt="alt" />
                         </v-avatar>
                       </v-flex>
                       <v-flex>
@@ -74,7 +74,7 @@
         </v-card>
         <v-divider></v-divider>
         <v-card ref="chart">
-          <div class="mt-3 pt-3 pb-3" style="width:600px; height : 500px"></div>
+          <div class="mt-3 pa-3" style="width:300px; height : 400px;margin : auto"></div>
         </v-card>
       </v-flex>
     </v-layout>
@@ -151,8 +151,8 @@ export default {
             color: color
           }))
         );
-        vm.items.sort(
-          (a, b) => (a.text > b.text ? 1 : a.text < b.text ? -1 : 0)
+        vm.items.sort((a, b) =>
+          a.text > b.text ? 1 : a.text < b.text ? -1 : 0
         );
       });
     }
