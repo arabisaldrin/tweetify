@@ -102,6 +102,9 @@ class FilterGroupViewSet(viewsets.ModelViewSet):
     queryset = FilterGroup.objects.all()
     serializer_class = FilterGroupSerializer
 
+    def get_queryset(self):
+        return FilterGroup.objects.filter(user=self.request.user)
+
 
 class FilterItemViewSet(viewsets.ModelViewSet):
     queryset = FilterItem.objects.all()
