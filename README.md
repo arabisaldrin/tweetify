@@ -1,4 +1,4 @@
-# tweet-alert
+# Tweetify
 
 A simple twitter live streamer application that uses [Nuxt.js](https://nuxtjs.org/) as front end framework and backed with the powerfull [Django](https://www.djangoproject.com/)
 
