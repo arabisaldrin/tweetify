@@ -21,7 +21,7 @@
 		"cookie-parser": "^1.4.3",
 		"cookie-universal-nuxt": "^2.0.11",
 		"cross-env": "^5.2.0",
-		"node-sass": "^4.9.4",
+		"node-sass": "^7.0.0",
 		"nuxt": "^2.0.0",
 		"nuxt-i18n": "^5.4.4",
 		"nuxt-validate": "^0.1.1",
